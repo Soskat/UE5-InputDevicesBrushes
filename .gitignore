@@ -41,16 +41,12 @@
 *.VC.db
 *.VC.opendb
 
-# Precompiled Assets
-SourceArt/**/*.png
-SourceArt/**/*.tga
-
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+Binaries
+Plugins/*/Binaries
 
 # Builds
-Build/*
+Build
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -67,8 +63,11 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
-Plugins/*/Intermediate/*
+Intermediate
+Plugins/*/Intermediate
+
+# Saves data
+Saved
 
 # Cache files for the editor to use
-DerivedDataCache/*
+DerivedDataCache
