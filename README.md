@@ -24,4 +24,10 @@ In case of any questions you can contact me at sosnowska.kk@gmail.com.
 
 ---
 ## Installation and usage
-TODO
+In order to install this plugin, you need to copy-paste InputDevicesBrushes folder inside your project's *Plugins* folder. Then, make sure you've enabled this plugin in your project.
+
+One more thing to do is to use provided sets of brushes in *Project Settings*. Navigate to **Game - Common Input Settings / Input / Platform Input** and fill **Controller Data** for selected Platform with set of brushes of your choice.
+
+![alt text](ProjectSettings.png "Project settings for controller data setup.")
+
+Keep in mind that this plugin requires Unreal's CommonUI plugin enabled in you project, so you need to have compatible engine version installed. I've tested it only in Unreal 5.1.
